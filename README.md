@@ -2,6 +2,17 @@
 
 Desktop installers for **The Abacus Accounting** (macOS, Windows, Linux).
 
+## Download the installers
+
+Binaries are **not** in the repository root. They live under **`assets/v{version}/`**.
+
+| Where | Link |
+|--------|------|
+| **GitHub Release** (recommended) | [**Latest release**](https://github.com/The-Abacus-Foundation/The-Abacus-Accounting-Download/releases/latest) — attached `.dmg`, `.msi`, `.AppImage` |
+| **Browse in repo** | [**`assets/v4.0.1/`**](https://github.com/The-Abacus-Foundation/The-Abacus-Accounting-Download/tree/main/assets/v4.0.1) — same files committed to `main` (version folder matches `release-assets.json`) |
+
+On the GitHub **Code** tab, open the **`assets`** folder, then the version folder (e.g. **`v4.0.1`**), to see the three installer files.
+
 ## How files get here
 
 On each successful [Desktop installers](https://github.com/The-Abacus-Foundation/The-Abacus-Accounting-Web/actions/workflows/desktop-build.yml) workflow run on **The-Abacus-Accounting-Web**, CI:
