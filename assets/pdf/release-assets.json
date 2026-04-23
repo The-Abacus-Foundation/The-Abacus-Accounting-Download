@@ -1,7 +1,9 @@
 {
   "repository": "The-Abacus-Foundation/The-Abacus-App-Download",
+  "app": "pdf",
   "version": "0.4.0",
   "tag": "v0.4.0",
+  "path": "assets/pdf",
   "assets": [
     { "platform": "macos", "filename": "abacus-pdf-macos-arm64-0.4.0.dmg" },
     { "platform": "windows", "filename": "abacus-pdf-windows-x64-0.4.0.msi" },

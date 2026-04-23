@@ -1,7 +1,9 @@
 {
-  "repository": "The-Abacus-Foundation/The-Abacus-Accounting-Download",
+  "repository": "The-Abacus-Foundation/The-Abacus-App-Download",
+  "app": "accounting",
   "version": "4.0.1",
   "tag": "v4.0.1",
+  "path": "assets/accounting",
   "assets": [
     {
       "platform": "macos",

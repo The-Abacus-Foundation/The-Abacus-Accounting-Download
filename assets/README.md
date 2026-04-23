@@ -1,11 +1,6 @@
-# Versioned installer folders
+# `assets/`
 
-Each **`assets/v{version}/`** directory holds the published installers for that release, synced from CI.
+- **`accounting/`** — Desktop installers for **The Abacus Accounting** (staged for release tags such as `v4.0.1`). Do not edit binaries in production; [The-Abacus-Accounting-Web](https://github.com/The-Abacus-Foundation/The-Abacus-Accounting-Web) CI can sync into this tree.
+- **`pdf/`** — Desktop installers for **The Abacus PDF** (e.g. `0.4.0` in filenames). The PDF app pipeline syncs into this folder. See `pdf/README.md`.
 
-Filenames match the main app (`web/package.json` version), for example:
-
-- `abacus-accounting-macos-arm64-4.0.1.dmg`
-- `abacus-accounting-windows-x64-4.0.1.msi`
-- `abacus-accounting-linux-x64-4.0.1.AppImage`
-
-Do not edit these manually in production; the **The-Abacus-Accounting-Web** workflow updates this tree.
+Version numbers appear in the **file names**; we do not use a nested `v1.2.3/` subfolder for Accounting or `latest/` / `v0.x/` subfolders for PDF in this layout.
